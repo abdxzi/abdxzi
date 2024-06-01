@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">I am glad you are here. <br><br><br>My name is Abdul Azeez. I am a developer from India.<br><br>If you like me to collaborate on any project, just ping me 📩</p>
+<p align="left">I am glad you are here. <br><br>My name is Abdul Azeez. I am a developer from India.<br>If you like me to collaborate on any project, just ping me 📩</p>
 
 ###
 
