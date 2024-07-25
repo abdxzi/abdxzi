@@ -11,22 +11,22 @@
 
 # 🌐 Socials:
 <div align="left">
-<a href="https://github.com/abdxzi" target="_blank">
-<img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" alt=github style="margin-bottom: 5px;" />
-</a>
-<img width="2">
-<a href="https://twitter.com/abdaziii" target="_blank">
-<img src="https://img.shields.io/badge/twitter-%23000.svg?&style=for-the-badge&logo=x&logoColor=white" alt="twitter" style="margin-bottom: 5px;" />
-</a>
-<img width="2">
-<a href="https://linkedin.com/in/abdul-azeez-v" target="_blank">
-<img width="2">
-<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
-</a>
-<img width="2">
-<a href="https://dev.to/abdxzi" target="_blank">
-<img src=https://img.shields.io/badge/dev.to-%2308090A.svg?&style=for-the-badge&logo=dev.to&logoColor=white alt=devto style="margin-bottom: 5px;" />
-</a>
+  <a href="https://github.com/abdxzi" target="_blank">
+    <img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" alt="github" style="margin-bottom: 5px;" />
+  </a>
+  <img width="2">
+  <a href="https://twitter.com/abdaziii" target="_blank">
+    <img src="https://img.shields.io/badge/twitter-%23000.svg?&style=for-the-badge&logo=x&logoColor=white" alt="twitter" style="margin-bottom: 5px;" />
+  </a>
+  <img width="2">
+  <a href="https://linkedin.com/in/abdul-azeez-v" target="_blank">
+    <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
+  </a>
+  <img width="2">
+  <a href="https://dev.to/abdxzi" target="_blank">
+    <img src=https://img.shields.io/badge/dev.to-%2308090A.svg?&style=for-the-badge&logo=dev.to&logoColor=white alt=devto style="margin-bottom: 5px;" />
+  </a>
+</div>
 
 <br>
 <br>
@@ -53,8 +53,8 @@
 <h2 align="left">Web3</h2>
 
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg" height="40" alt="solidity logo"  />
-  <img width="2">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg" height="40" alt="solidity logo"/>
+  <img width="2" />
   <img src="https://skillicons.dev/icons?i=rust" height="40">
   <img width="2">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hardhat/hardhat-original.svg" height="40" />
@@ -66,13 +66,13 @@
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
-  <img width="2">
+  <img width="2" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="2">
+  <img width="2" />
   <img src="https://skillicons.dev/icons?i=rust" height="40">
-  <img width="2">
+  <img width="2" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="2">
+  <img width="2" />
   <img src="https://skillicons.dev/icons?i=c" height="40" alt="c logo"  />
   <img width="2">
   <img src="https://skillicons.dev/icons?i=php" height="40" alt="php logo"  />
