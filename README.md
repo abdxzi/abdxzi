@@ -11,6 +11,7 @@
 
 # 🌐 Socials:
 <div align="left">
+
 [![github](https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white)](https://github.com/abdxzi)
 <img width="2">
 [![twitter](https://img.shields.io/badge/twitter-%23000.svg?&style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/abdaziii)
@@ -18,6 +19,7 @@
 [![linkedin](https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdul-azeez-v)
 <img width="2">
 [![dev.to](https://img.shields.io/badge/dev.to-%2308090A.svg?&style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/abdxzi)
+
 </div>
 
 <br>
