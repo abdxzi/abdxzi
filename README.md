@@ -19,6 +19,8 @@
 [![linkedin](https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdul-azeez-v)
 <img width="2">
 [![dev.to](https://img.shields.io/badge/dev.to-%2308090A.svg?&style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/abdxzi)
+<img width="2">
+[![warpcast](https://img.shields.io/badge/farcaster-8A61D2.svg?&style=for-the-badge&logo=farcaster&logoColor=white)](https://warpcast.com/abdxzi)
 
 </div>
 
