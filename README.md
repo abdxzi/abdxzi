@@ -127,3 +127,24 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg" height="40" />
 </div>
 <br>
+
+
+### 📊 GitHub Stats:
+![](https://github-readme-streak-stats.herokuapp.com/?user=abdxzi&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=abdxzi&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+
+<details>
+  <summary>see git status</summary>
+
+![](https://github-readme-stats.vercel.app/api?username=abdxzi&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=abdxzi&limit=5&theme=dark&combine_all_yearly_contributions=true)
+</details>
+
+
+
+<!-- ---
+[![](https://visitcount.itsvg.in/api?id=abdxzi&icon=0&color=0)](https://visitcount.itsvg.in) -->
+
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
