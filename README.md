@@ -14,7 +14,7 @@
 
 [![github](https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white)](https://github.com/abdxzi)
 <img width="2">
-[![twitter](https://img.shields.io/badge/twitter-%23000.svg?&style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/abdaziii)
+[![twitter](https://img.shields.io/badge/twitter-%23000.svg?&style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/abdxzi)
 <img width="2">
 [![linkedin](https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdul-azeez-v)
 <img width="2">
@@ -47,6 +47,9 @@
 <h2 align="left">Web3</h2>
 
 <div align="left">
+
+![](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg)
+
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg" height="40" alt="solidity logo"/>
   <img width="2" />
   <img src="https://skillicons.dev/icons?i=rust" height="40">
@@ -54,6 +57,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hardhat/hardhat-original.svg" height="40" />
   <img width="2">
   <img src="https://raw.githubusercontent.com/foundry-rs/book/master/theme/card.png" height="40">
+
 </div>
 
 <h2 align="left">Languages</h2>

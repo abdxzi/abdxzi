@@ -3,3 +3,5 @@ audit-course
 # LEARN RUST
 rust/**/target
 rust/**/Cargo.lock
+rust/windows
+TON
