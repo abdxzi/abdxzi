@@ -47,9 +47,6 @@
 <h2 align="left">Web3</h2>
 
 <div align="left">
-
-![](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg)
-
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg" height="40" alt="solidity logo"/>
   <img width="2" />
   <img src="https://skillicons.dev/icons?i=rust" height="40">
