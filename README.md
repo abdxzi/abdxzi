@@ -142,9 +142,6 @@
 ![](https://github-contributor-stats.vercel.app/api?username=abdxzi&limit=5&theme=dark&combine_all_yearly_contributions=true)
 </details>
 
-
-
-<!-- ---
-[![](https://visitcount.itsvg.in/api?id=abdxzi&icon=0&color=0)](https://visitcount.itsvg.in) -->
+[![](https://visitcount.itsvg.in/api?id=abdxzi&icon=0&color=0)](https://visitcount.itsvg.in) 
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
