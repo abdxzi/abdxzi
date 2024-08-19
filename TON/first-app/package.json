@@ -1,0 +1,19 @@
+{
+  "name": "first-app",
+  "version": "1.0.0",
+  "description": "First TON Smart contract ",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@swc/core": "^1.7.14",
+    "@ton-community/func-js": "^0.7.0",
+    "@types/node": "^22.4.1",
+    "ton-core": "^0.53.0",
+    "ton-crypto": "^3.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "compile": "ts-node ./scripts/compile.ts"
+  }
+}

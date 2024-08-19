@@ -4,4 +4,4 @@ audit-course
 rust/**/target
 rust/**/Cargo.lock
 rust/windows
-TON
+TON/notes
