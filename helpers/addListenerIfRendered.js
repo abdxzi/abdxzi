@@ -19,8 +19,8 @@ function addListenerIfRendered(elementId, eventType, callback) {
     observer.observe(targetNode, config);
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-    addListenerIfRendered("checkcheck", "click", () => {
-        // ...
-    });
-});
+// document.addEventListener("DOMContentLoaded", () => {
+//     addListenerIfRendered("checkcheck", "click", () => {
+//         // ...
+//     });
+// });

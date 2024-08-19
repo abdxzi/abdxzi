@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi File Upload with Drag and Drop</title>
+    <style>
+        #dropZone {
+            width: 100%;
+            padding: 50px;
+            border: 2px dashed #ccc;
+            border-radius: 10px;
+            text-align: center;
+            color: #ccc;
+            margin-top: 20px;
+        }
+
+        #dropZone.dragover {
+            background-color: #f0f0f0;
+            border-color: #333;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Upload Multiple Files with Drag and Drop</h2>
+    <form id="uploadForm">
+        <input type="file" id="fileInput" multiple>
+        <div id="dropZone">Drag and drop files here</div>
+        <button type="submit">Upload Files</button>
+    </form>
+
+    <ul id="fileList"></ul>
+
+    <script src="upload.js"></script>
+</body>
+
+</html>
+
+<script>
+    const dropZone = document.getElementById('dropZone');
+    const fileInput = document.getElementById('fileInput');
+    const fileList = document.getElementById('fileList');
+
+    function handleFiles(files) {
+        fileList.innerHTML = ''; // Clear the list
+
+        Array.from(files).forEach(file => {
+            const listItem = document.createElement('li');
+            listItem.textContent = `${file.name} (${file.size} bytes)`;
+            fileList.appendChild(listItem);
+
+            const formData = new FormData();
+            formData.append('file', file);
+
+            fetch('/upload', { // Replace '/upload' with your upload endpoint
+                method: 'POST',
+                body: formData
+            }).then(response => {
+                if (response.ok) {
+                    console.log(`${file.name} uploaded successfully`);
+                } else {
+                    console.error(`Error uploading ${file.name}`);
+                }
+            }).catch(error => {
+                console.error(`Error uploading ${file.name}:`, error);
+            });
+        });
+    }
+
+    dropZone.addEventListener('dragover', (e) => {
+        e.preventDefault();
+        dropZone.classList.add('dragover');
+    });
+
+    dropZone.addEventListener('dragleave', () => {
+        dropZone.classList.remove('dragover');
+    });
+
+    dropZone.addEventListener('drop', (e) => {
+        e.preventDefault();
+        dropZone.classList.remove('dragover');
+        const files = e.dataTransfer.files;
+        handleFiles(files);
+    });
+
+    fileInput.addEventListener('change', () => {
+        handleFiles(fileInput.files);
+    });
+
+    document.getElementById('uploadForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+        handleFiles(fileInput.files);
+    });
+
+</script>
