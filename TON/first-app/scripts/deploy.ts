@@ -9,13 +9,14 @@ import {
 } from "ton";
 import qs from "qs";
 import qrcode from "qrcode-terminal";
-
+import dotenv from "dotenv"
+dotenv.config();
 
 async function deployScript() {
   console.log(
     "================================================================="
   );
-  console.log("Deploy script is running, let's deploy our main.fc contract...");
+  console.log(`Deploy script is running, let's deploy our main.fc contract... (${process.env.TESTNET ? "TESTNET" : "MAINNET"})`);
 
   const codeCell = Cell.fromBoc(Buffer.from(hex, "hex"))[0];
   const dataCell = new Cell();
@@ -42,7 +43,7 @@ async function deployScript() {
   let link =
     `https://tonhub.com/transfer/` +
     address.toString({
-      testOnly: true,
+      testOnly: process.env.TESTNET ? true : false,
     }) +
     "?" +
     qs.stringify({
@@ -57,13 +58,3 @@ async function deployScript() {
 }
 
 deployScript();
-
-
-/*
-For mainnet deployment:
-
-  address.toString({
-      testOnly: true,    <---- make this false
-  })
-
-*/
