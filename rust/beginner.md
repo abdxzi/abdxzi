@@ -20,6 +20,13 @@
 > install these in WSL environment
 
 
+# Start a project
+
+```bash
+cargo init
+cargo run
+```
+
 # Mutability
 All variable are immutable by default
 In rust unless we state a variable is mutable `let mut x:i8` the variable is immutable
