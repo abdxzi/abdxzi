@@ -5,7 +5,7 @@ import webpack from "webpack";
 
 export default {
   mode: "production", //process.env.NODE_ENV || "development",
-  entry: "./output.js",
+  entry: "./src/index.js",
   module: {
     rules: [
       {
@@ -18,11 +18,15 @@ export default {
           },
         },
       },
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader', 'postcss-loader'],
+      },
     ],
   },
   output: {
     filename: "popup.js",
-    path: "E:\\extension-build\\dist\\js",
+    path: "/home/abdxzi/Zi/work/chrome-extension/dist/js/",
   },
   devServer: {
     static: new URL("dist", import.meta.url).pathname,
