@@ -1,26 +1,62 @@
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 
 // Declare the chrome object as a global variable
 
 export default function App() {
 
+  const [transactions, setTransactions] = useState<any[]>([])
+  const [isFetched, setIsFetched] = useState(false)
+
+  console.log("Popup script loaded");
+
   useEffect(() => {
-    
-    // alert(chrome.runtime.id)
-    const port = chrome.runtime.connect({ name: "popup" });
+    if (!isFetched) {
+      const port = chrome.runtime.connect({ name: "popup" });
 
-    port.onMessage.addListener((msg: string) => {
-      console.log("Received from background:", msg);
-    });
+      port.postMessage({
+        data: {
+          method: "acc_pendingTransactions"
+        }
+      })
 
-    // Optional: Handle port disconnection
-    port.onDisconnect.addListener(() => {
-      console.log("Popup disconnected");
-    });
-  })
+      port.onMessage.addListener((msg: unknown) => {
+        console.log("Received from background:", msg);
+        setTransactions(msg as any[])
+      });
+
+      // Optional: Handle port disconnection
+      port.onDisconnect.addListener(() => {
+        console.log("Popup disconnected");
+      });
+
+      setIsFetched(true)
+    }
+  }, [isFetched])
+
+  console.log(transactions)
 
   return (
-    // <div className="h-[400px] w-[300px] bg-[#c3c3c3]">Test View</div>
-    <></>
+    <>
+      {
+        transactions.length > 0 ?
+          <div className="h-[600px] w-[300px]">
+            <div className="">Transactions Pending ({transactions.length})</div>
+            <div className="">
+              {
+                transactions.map((msg, i) => {
+                  return (
+                    <div key={i}>
+                      {
+                        JSON.stringify(msg.params,null,2)
+                      }
+                    </div>
+                  )
+                })
+              }
+            </div>
+          </div>
+          : <div className="h-[600px] w-[300px]">No transactions</div>
+      }
+    </>
   )
 }
